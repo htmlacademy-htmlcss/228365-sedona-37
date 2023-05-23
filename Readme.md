@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ildar Gnn](https://up.htmlacademy.ru/htmlcss/37/user/228365).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Ермолаев](https://up.htmlacademy.ru/htmlcss/37/user/128353).
 
 ---
 
