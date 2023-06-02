@@ -8,13 +8,46 @@
   </head>
 
   <body>
-    <header class="main-header">
-      <!-- Шапка сайта -->
+    <header class="page-header">
+      <a href="/" class="page-header-logo" aria-current="page">
+        <img src="img/page-header-logo.svg" alt="Логотип города Седона">
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link nav-link--current" href="/">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">О Седоне</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="nav-list nav-buttons">
+          <li class="nav-item nav-button">
+            <a class="nav-link nav-button-search" href="#">
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="nav-item nav-button">
+            <a class="nav-link nav-button-favorites" href="#">
+              <span class="visually-hidden">Избранное</span>
+            </a>
+          </li>
+          <li class="nav-item nav-button">
+            <a class="button button-size--small button-color--accent" href="#">Хочу сюда!</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <section class="hero">
+        <h1 class="visually-hidden">Отдых в городе Седона</h1>
+      </section>
       <!-- Основное содержимое страницы -->
     </main>
-    <footer class="main-footer">
+    <footer class="footer">
       <!-- Подвал сайта -->
     </footer>
   </body>
