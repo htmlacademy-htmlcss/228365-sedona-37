@@ -5,51 +5,76 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона</title>
+    <meta name="description" content="Седона — великолепный небольшой городок в Аризоне, прекрасно подходит для отдыха">
   </head>
 
   <body>
-    <header class="page-header">
-      <a href="/" class="page-header-logo" aria-current="page">
-        <img src="img/page-header-logo.svg" alt="Логотип города Седона">
-      </a>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link nav-link--current" href="/">Главная</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">О Седоне</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="catalog.html">Гостиницы</a>
-          </li>
-        </ul>
-        <ul class="nav-list nav-buttons">
-          <li class="nav-item nav-button">
-            <a class="nav-link nav-button-search" href="#">
-              <span class="visually-hidden">Поиск</span>
-            </a>
-          </li>
-          <li class="nav-item nav-button">
-            <a class="nav-link nav-button-favorites" href="#">
-              <span class="visually-hidden">Избранное</span>
-            </a>
-          </li>
-          <li class="nav-item nav-button">
-            <a class="button button-size--small button-color--accent" href="#">Хочу сюда!</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <h1 class="visually-hidden">Отдых в городе Седона</h1>
-      </section>
-      <!-- Основное содержимое страницы -->
-    </main>
-    <footer class="footer">
-      <!-- Подвал сайта -->
-    </footer>
+    <h1 class="visually-hidden">Главная страница города Седона</h1>
+    <div class="page-wrapper">
+      <!-- header -->
+      <header class="page-header">
+        <a class="page-header-logo" href="/" aria-current="page">
+          <img src="images/page-header-logo.svg" width="140" height="70" alt="Логотип города Седона">
+        </a>
+        <!-- navigation -->
+        <nav class="nav">
+          <h2 class="visually-hidden">Навигация</h2>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link nav-link--current" href="/" aria-current="page">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О Седоне</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalog.html">Гостиницы</a>
+            </li>
+          </ul>
+          <ul class="nav-list nav-buttons">
+            <li class="nav-item nav-button">
+              <a class="nav-link nav-button-search" href="#">
+                <span class="visually-hidden">Поиск</span>
+              </a>
+            </li>
+            <li class="nav-item nav-button">
+              <a class="nav-link nav-button-favorites" href="#">
+                <span class="visually-hidden">Избранное</span>
+                <span class="favorites-number">12</span>
+              </a>
+            </li>
+            <li class="nav-item nav-button">
+              <a class="button button-size--small button-color--accent" href="#">Хочу сюда!</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- main -->
+      <main>
+        <section class="hero">
+          <img class="hero-title" src="images/hero-title.svg" width="458" height="352" alt="Баннер с приглашением и цитатой, на фоне красивых гор.">
+          <h2 class="visually-hidden">Приглашаем вас в прекрасную Седону</h2>
+          <p class="visually-hidden"><q>Седона круче, чем Гранд Каньон!</q></p>
+        </section>
+
+        <section class="advantages">
+
+        </section>
+        <section class="services">
+
+        </section>
+        <section class="search">
+
+        </section>
+        <section class="subscribe">
+
+        </section>
+      </main>
+      <!-- footer -->
+      <footer class="footer">
+
+      </footer>
+    </div>
+    <!-- modal pop-up form -->
   </body>
 
 </html>
